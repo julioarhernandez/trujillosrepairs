@@ -146,14 +146,6 @@ gulp.task('sitemap', function () {
         .pipe(gulp.dest('./'));
 });
 
-// gulp.task('build:jekyll', function() {
-//     var shellCommand = 'bundle exec jekyll build --config _config.yml';
-
-//     return gulp.src('')
-//         .pipe(run(shellCommand))
-//         .on('error', gutil.log);
-// });
-
 gulp.task('build:jekyll', function(done) {
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
     .on('close', done);
