@@ -1,0 +1,46 @@
+showsocial: true
+navbrand:
+  href: '/'
+  title: 'title'
+  text: ''
+  src: '/assets/img/logo.png'
+  alt: 'Logo'
+transparent: true
+fixed: false
+sticky: true
+absolute: true
+background-color: 'bg-black'
+navlink-align: 'right'
+navlinks:
+  - text: 'Home'
+    href: '/'
+    switch: '/es/'
+  - text: 'About us'
+    href: '/about/'
+    switch: '/es/acerca/'
+  - text: 'Services'
+    href: '/#'
+    subitems:
+      - 
+        text: 'Web'
+        href: '/services/web/'
+        switch: '/es/servicios/web/'
+      - 
+        text: 'Branding'
+        href: '/services/branding/'
+        switch: '/es/servicios/branding/'
+      - 
+        text: 'Digital'
+        href: '/services/digital/'
+        switch: '/es/servicios/digital/'
+      - 
+        text: 'Photography'
+        href: '/services/photography/'
+        switch: '/es/servicios/fotografia/'
+      - 
+        text: 'Hosting'
+        href: '/services/hosting-domain/'
+        switch: '/es/servicios/hosting-dominio/'
+  - text: 'Contact us'
+    href: '/contactus/'
+    switch: '/es/contacto/'

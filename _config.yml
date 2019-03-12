@@ -1,0 +1,175 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Head
+fonts:
+  - 'Montserrat:400,700,200,900'
+  - 'Open Sans Condensed:700'
+
+# Navigation
+showsocial: true
+navlinks:
+  - text: 'Home'
+    href: '/'
+  - text: 'About'
+    href: '/about/'
+  - text: 'Services'
+    href: '/services/'
+    subitems:
+      - 
+        text: 'Web'
+        href: '/services/web/'
+      - 
+        text: 'Branding'
+        href: '/services/branding/'
+      - 
+        text: 'Digital'
+        href: '/services/digital/'
+      - 
+        text: 'Fotografia'
+        href: '/services/fotografia/'
+      - 
+        text: 'Hosting'
+        href: '/services/hosting-dominio/'
+  - text: 'Contact us'
+    href: '/contactus/'
+  # - text: 'Others'
+  #   href: '#'
+  #   subitems:
+  #     -
+  #       text: 'Features'
+  #       href: '/mocks/features'
+  #     -
+  #       text: 'Projects'
+  #       href: '/mocks/awesome-projects'
+  #     -
+  #       text: 'Team'
+  #       href: '/mocks/awesome-team'
+  #     -
+  #       text: 'Blog-posts'
+  #       href: '/mocks/blog-posts'
+  #     -
+  #       text: 'Contact-us'
+  #       href: '/mocks/contact-us'
+  #     -
+  #       text: 'Footers'
+  #       href: '/mocks/footers'
+  #     -
+  #       text: 'Headers'
+  #       href: '/mocks/headers'
+  #     -
+  #       text: 'Pricing'
+  #       href: '/mocks/pricing'
+  #     -
+  #       text: 'Services'
+  #       href: '/mocks/services'
+  #     -
+  #       text: 'Subscribe'
+  #       href: '/mocks/subscribe'
+  #     -
+  #       text: 'Testimonial'
+  #       href: '/mocks/testimonial'
+
+# Social
+social:
+  -
+    icon: 'flaticon-twitter-logo-button'
+    name: 'twitter' 
+    href: 'https://twitter.com/bizmarketingus'
+    btn: 'btn-twitter'
+    class: 'icon-1'
+  -
+    icon: 'flaticon-facebook-logo-button'
+    name: 'facebook'
+    href: 'https://www.facebook.com/bizmarketing.us'
+    btn: 'btn-facebook'
+    class: 'icon-1'
+  -
+    icon: 'flaticon-instagram-logo'
+    name: 'instagram'
+    href: 'https://www.instagram.com/bizmarketing.us/'
+    btn: 'btn-instagram'
+    class: 'icon-1'
+  -
+    icon: 'flaticon-google-plus-logo-button'
+    name: 'google'
+    href: 'https://plus.google.com/+BizmarketingusMiami'
+    btn: 'btn-google'
+    class: 'icon-1'
+  -
+    icon: 'flaticon-youtube'
+    name: 'google'
+    href: 'https://www.youtube.com/channel/UCLnu6jMF4ZlIPygBbXYUpVw'
+    btn: 'btn-google'
+    class: 'icon-1'
+
+# Theme color
+theme-color: '#f7941d'
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  # - jekyll-feed
+
+collections:
+  authors:
+    output: true    
+  shoes:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+    
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - devassets
