@@ -9,7 +9,7 @@ collections: # A list of collections the CMS should be able to edit
     name: "home"
     files:
       - label: "Global"
-        name: "home"
+        name: "Global"
         file: "_data/global/global.yml"
         fields:
           - {label: Brand, name: brand, widget: string, hint: "Brand Name"}
