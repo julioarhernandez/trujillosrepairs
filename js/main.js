@@ -307,37 +307,40 @@
 
 			/* submit via ajax */
 			submitHandler: function(form) {				
-				var sLoader = $('#submit-loader');			
+				var sLoader = $('#submit-loader');		
+                sLoader.fadeIn();
+                setTimeout(function() {
+                    	form.submit();		
+                }, 2000);
+			// 	$.ajax({   	
+			//       type: "POST",
+			//       url: "inc/sendEmail.php",
+			//       data: $(form).serialize(),
 
-				$.ajax({   	
-			      type: "POST",
-			      url: "inc/sendEmail.php",
-			      data: $(form).serialize(),
-
-			      beforeSend: function() { 
-			      	sLoader.fadeIn(); 
-			      },
-			      success: function(msg) {
-		            // Message was sent
-		            if (msg == 'OK') {
-		            	sLoader.fadeOut(); 
-		               $('#message-warning').hide();
-		               $('#contactForm').fadeOut();
-		               $('#message-success').fadeIn();   
-		            }
-		            // There was an error
-		            else {
-		            	sLoader.fadeOut(); 
-		               $('#message-warning').html(msg);
-			            $('#message-warning').fadeIn();
-		            }
-			      },
-			      error: function() {
-			      	sLoader.fadeOut(); 
-			      	$('#message-warning').html("Something went wrong. Please try again.");
-			         $('#message-warning').fadeIn();
-			      }
-		      });    		
+			//       beforeSend: function() { 
+			//       	sLoader.fadeIn(); 
+			//       },
+			//       success: function(msg) {
+		    //         // Message was sent
+		    //         if (msg == 'OK') {
+		    //         	sLoader.fadeOut(); 
+		    //            $('#message-warning').hide();
+		    //            $('#contactForm').fadeOut();
+		    //            $('#message-success').fadeIn();   
+		    //         }
+		    //         // There was an error
+		    //         else {
+		    //         	sLoader.fadeOut(); 
+		    //            $('#message-warning').html(msg);
+			//             $('#message-warning').fadeIn();
+		    //         }
+			//       },
+			//       error: function() {
+			//       	sLoader.fadeOut(); 
+			//       	$('#message-warning').html("Something went wrong. Please try again.");
+			//          $('#message-warning').fadeIn();
+			//       }
+		    //   });    		
 	  		}
 
 		});

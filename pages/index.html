@@ -28,7 +28,7 @@ description: 'seo description'
     </div> <!-- end home-content-table -->
 
     <ul class="home-social-list">
-        {% for social in site.social %}
+        {% for social in site.data.global.global.social %}
         <li class="animate-intro">
             <a href="{{ social.href }}"><i class="fa {{ social.icon }}"></i></a>
         </li>
@@ -122,7 +122,7 @@ description: 'seo description'
 				{% for items in site.data.home.home.portfolio.items %}
                 <div class="brick folio-item">
                     <div class="item-wrap animate-this" data-src="{{items.data-src}}"
-                        data-sub-html="#{{forloop.index}}">
+                        data-sub-html="#id{{forloop.index}}">
                         <a href="#" class="overlay">
                             <img src="{{items.src}}" alt="Skaterboy">
                             <div class="item-text">
@@ -137,7 +137,7 @@ description: 'seo description'
                         </a>
                     </div> <!-- end item-wrap -->
 
-                    <div id="01" class='hide'>
+                    <div id="id{{forloop.index}}" class='hide'>
                         <h4>{{items.title}}</h4>
                         <p>{{items.content}}<a href="{{items.link}}">Details</a></p>
                     </div>
@@ -156,7 +156,7 @@ description: 'seo description'
 
     <div class="row">
         <div class="col-twelve">
-            <h2 class="animate-this">What They Say About Us.</h2>
+            <h2 class="animate-this">{{ site.data.home.home.testimonials.title }}</h2>
         </div>
     </div>
 
@@ -197,17 +197,9 @@ description: 'seo description'
         <div class="col-twelve">
 
             <div class="client-lists owl-carousel">
-                <div><img src="images/clients/mozilla.png" alt=""></div>
-                <div><img src="images/clients/bower.png" alt=""></div>
-                <div><img src="images/clients/codepen.png" alt=""></div>
-                <div><img src="images/clients/envato.png" alt=""></div>
-                <div><img src="images/clients/firefox.png" alt=""></div>
-                <div><img src="images/clients/grunt.png" alt=""></div>
-                <div><img src="images/clients/evernote.png" alt=""></div>
-                <div><img src="images/clients/github.png" alt=""></div>
-                <div><img src="images/clients/joomla.png" alt=""></div>
-                <div><img src="images/clients/jQuery.png" alt=""></div>
-                <div><img src="images/clients/wordpress.png" alt=""></div>
+                {% for item in site.data.home.home.clients %}
+                    <div><img src="{{ item.src }}" alt="{{ item.alt }}"></div>
+                {% endfor %}
             </div>
 
         </div> <!-- end col-twelve -->
@@ -224,12 +216,10 @@ description: 'seo description'
 
     <div class="row narrow section-intro with-bottom-sep animate-this">
         <div class="col-twelve">
-            <h3>Contact</h3>
-            <h1>Get In Touch.</h1>
+            <h3>{{ site.data.home.home.contact.subtitle }}</h3>
+            <h1>{{ site.data.home.home.contact.title }}</h1>
 
-            <p class="lead">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan
-                id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-                sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            <p class="lead">{{ site.data.home.home.contact.content }}</p>
         </div>
     </div> <!-- end section-intro -->
 
@@ -237,11 +227,11 @@ description: 'seo description'
 
         <div class="col-seven tab-full animate-this">
 
-            <h5>Send Us A Message</h5>
+            <h5>{{ site.data.home.home.contact.action-title }}</h5>
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post">
-
+            <form name="contactForm" id="contactForm" method="post" action="{{ site.data.home.home.contact.form.action }}">
+                <input type="text" name="_gotcha" style="display:none" />
                 <div class="form-field">
                     <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
                         required="">
@@ -293,31 +283,26 @@ description: 'seo description'
 
         <div class="col-four tab-full contact-info end animate-this">
 
-            <h5>Contact Information</h5>
+            <h5>{{ site.data.home.home.contact.information.title }}</h5>
 
             <div class="cinfo">
-                <h6>Where to Find Us</h6>
+                <h6>{{ site.data.home.home.contact.information.subtitle }}</h6>
                 <p>
-                    1600 Amphitheatre Parkway<br>
-                    Mountain View, CA<br>
-                    94043 US
+                    {{ site.data.home.home.contact.information.address }}
                 </p>
             </div> <!-- end cinfo -->
 
             <div class="cinfo">
-                <h6>Email Us At</h6>
+                <h6>{{ site.data.home.home.contact.information.email-title }}</h6>
                 <p>
-                    someone@infinitysite.com<br>
-                    info@infinitysite.com
+                    {{ site.data.home.home.contact.information.emails }}
                 </p>
             </div> <!-- end cinfo -->
 
             <div class="cinfo">
-                <h6>Call Us At</h6>
+                <h6>{{ site.data.home.home.contact.information.phone-title }}</h6>
                 <p>
-                    Phone: (+63) 555 1212<br>
-                    Mobile: (+63) 555 0100<br>
-                    Fax: (+63) 555 0101
+                    {{ site.data.home.home.contact.information.phones }}
                 </p>
             </div>
 
