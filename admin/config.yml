@@ -47,6 +47,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: "background"
                 widget: "image"
                 default: "/images/header-bg.jpg"
+                required: false
               - label: Button
                 name: button
                 widget: object
