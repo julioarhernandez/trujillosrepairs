@@ -51,4 +51,22 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Title, name: title, widget: string}
                   - {label: Icon, name: icon, widget: string}
                   - {label: Content, name: content, widget: text}
+          - label: "Portfolio"
+            name: portfolio
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string, default: 'See Our Featured Projects.'}
+              - {label: Subtitle, name: subtitle, widget: string, default: 'Showcase'}
+              - {label: Content, name: content, widget: text}
+              - label: "Items" 
+                name: "items" 
+                allow_add: true
+                widget: "list"
+                fields:
+                  - {label: Subtitle, name: subtitle, widget: string}
+                  - {label: Title, name: src, widget: string}
+                  - {label: Data-src, name: data-src, widget: string}
+                  - {label: Src, name: src, widget: string}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Content, name: content, widget: text}
               
