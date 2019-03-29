@@ -2,7 +2,10 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "images/" # Folder where user uploaded files should go
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 4b59e0d62e559adb6d52 # replace with your publickey, or use this just to test
 
 collections: # A list of collections the CMS should be able to edit
   - label: "Pages"
@@ -34,6 +37,10 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Subtitle, name: subtitle, widget: string}
+              - label: "Header Image"
+                name: "background"
+                widget: "image"
+                default: "/images/header-bg.jpg"
               - label: Button
                 name: button
                 widget: object
