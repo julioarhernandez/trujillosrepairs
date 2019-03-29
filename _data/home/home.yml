@@ -1,13 +1,12 @@
 seo:
-  title: "Title"
-  description: "Description"
+  description: Description of page
+  title: Title of page
 header:
   button:
     href: '#about'
     text: Learn More
   subtitle: We are Trujillos Repairs
   title: ' We Craft Stunning <br/>Digital Experiences.'
-  background-image: "/images/header-bg.jpg"
 about:
   content: "<span>Trujillo's Auto Repair</span> is a creative digital agency based in Manila, Philippines. We are composed of creative designers and experienced developers.\t"
   title: about us
