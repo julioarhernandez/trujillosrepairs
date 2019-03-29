@@ -44,7 +44,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
               - {label: Subtitle, name: subtitle, widget: string}
               - label: "Header Image"
-                name: "background"
+                name: "background-image"
                 widget: "image"
                 default: "/images/header-bg.jpg"
                 required: false
