@@ -13,6 +13,16 @@ collections: # A list of collections the CMS should be able to edit
         file: "_data/global/global.yml"
         fields:
           - {label: Brand, name: brand, widget: string, hint: "Brand Name"}
+          - label: "Social" 
+            name: "social" 
+            allow_add: true
+            widget: "list"
+            fields:
+              - {label: Icon Class, name: icon, widget: string}
+              - {label: Name, name: name, widget: string}
+              - {label: Href, name: href, widget: string}
+              - {label: Button Class, name: btn, widget: string}
+              - {label: Class, name: icon-1, widget: string, default: 'icon-1'}
       - label: "Home Page"
         name: "home"
         file: "_data/home/home.yml"
