@@ -69,4 +69,49 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Src, name: src, widget: string}
                   - {label: Link, name: link, widget: string}
                   - {label: Content, name: content, widget: text}
+          - label: "Testimonials"
+            name: testimonials
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string, default: 'See Our Featured Projects.'}
+              - label: "Items" 
+                name: "items" 
+                allow_add: true
+                widget: "list"
+                fields:
+                  - {label: Avatar, name: avatar, widget: string}
+                  - {label: Name, name: name, widget: string}
+                  - {label: Position, name: position, widget: string}
+                  - {label: Content, name: content, widget: text}
+          - label: "Clients"
+            name: clients
+            widget: list
+            allow_add: true
+            fields:
+              - {label: Src, name: avatar, widget: string}
+              - {label: Alt, name: name, widget: string}
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Button, name: action-title, widget: string}
+              - {label: Content, name: content, widget: text}
+          - label: Form
+            name: form
+            widget: object
+            fields:
+              - {label: action, name: action, widget: string}
+          - label: Information
+            name: information
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Address, name: address, widget: text}
+              - {label: Email title, name: email-title, widget: string}
+              - {label: Emails, name: emails, widget: text}
+              - {label: Phone title, name: phone-title, widget: string}
+              - {label: Phones, name: phones, widget: text}
               
