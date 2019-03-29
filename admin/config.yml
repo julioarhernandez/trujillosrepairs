@@ -29,3 +29,26 @@ collections: # A list of collections the CMS should be able to edit
                 widget: object
                 fields:
                   - {label: Text, name: text, widget: string}
+                  - {label: href, name: href, widget: string, default: '#about'}
+          - label: "About us"
+            name: about
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string, default: 'About us'}
+              - {label: Content, name: content, widget: text}
+          - label: "Services"
+            name: services
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string, default: 'Services'}
+              - {label: Subtitle, name: subtitle, widget: string, default: 'What we do'}
+              - {label: Content, name: content, widget: text}
+              - label: "Items" 
+                name: "items" 
+                allow_add: true
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Content, name: content, widget: text}
+              
