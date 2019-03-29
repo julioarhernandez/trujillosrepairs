@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Name, name: name, widget: string}
               - {label: Href, name: href, widget: string}
               - {label: Button Class, name: btn, widget: string}
-              - {label: Class, name: icon-1, widget: string, default: 'icon-1'}
+              - {label: Class, name: class, widget: string, default: 'icon-1'}
       - label: "Home Page"
         name: "home"
         file: "_data/home/home.yml"
