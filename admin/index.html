@@ -17,6 +17,12 @@
             window.netlifyIdentity.on("login", () => {
             document.location.href = "/admin/";
             });
+
+            // Confirmation token redirection
+            if (window.location.hash && window.location.hash.indexOf('#confirmation_token=') === 0) {
+                const token = window.location.hash;
+                document.location.href = "/admin/" + token;
+            }
         }
         });
     }
