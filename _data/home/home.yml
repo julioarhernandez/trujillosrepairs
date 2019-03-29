@@ -1,3 +1,6 @@
+seo:
+  title: "Title"
+  description: "Description"
 header:
   button:
     href: '#about'

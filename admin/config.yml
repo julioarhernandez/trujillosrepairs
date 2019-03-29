@@ -31,6 +31,12 @@ collections: # A list of collections the CMS should be able to edit
         file: "_data/home/home.yml"
         widget: "object"
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+          fields:
+            - {label: SEO Title, name: title, widget: string}
+            - {label: SEO Description, name: description, widget: string}
           - label: Header
             name: header
             widget: object
