@@ -5,8 +5,12 @@ backend:
 media_library:
   name: uploadcare
   config:
-    publicKey: 4b59e0d62e559adb6d52 # replace with your publickey, or use this just to test
-
+    effects:  'crop,rotate,mirror,flip,enhance,sharp'
+    imageShrink: '1400x780'
+    imagesOnly: true
+    previewStep: true
+    clearable: true
+    publicKey: 4b59e0d62e559adb6d52 
 collections: # A list of collections the CMS should be able to edit
   - label: "Pages"
     name: "home"
