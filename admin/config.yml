@@ -127,13 +127,8 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Footer"
         name: "footer"
         file: "_data/footer/footer.yml"
-        widget: "object"
         fields:
-          - label: Footer
-            name: footer
-            widget: object
-            fields:
-              - {label: Brand, name: brand, widget: string}
-              - {label: Content, name: content, widget: text}
-              - {label: Newsletter Title, name: newsletter-title, widget: string, default: 'Get Notified'}
-              - {label: Newsletter Content, name: newsletter-content, widget: text}
+          - {label: Brand, name: brand, widget: string}
+          - {label: Content, name: content, widget: text}
+          - {label: Newsletter Title, name: newsletter-title, widget: string, default: 'Get Notified'}
+          - {label: Newsletter Content, name: newsletter-content, widget: text}
