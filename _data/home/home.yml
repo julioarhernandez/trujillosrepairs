@@ -2,6 +2,7 @@ seo:
   description: Description of page
   title: Title of page
 header:
+  background-image: 'https://ucarecdn.com/e3845fbf-f32b-4f52-b285-fa185aa8273c/-/preview/'
   button:
     href: '#about'
     text: Learn More
