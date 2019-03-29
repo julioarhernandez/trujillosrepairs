@@ -98,8 +98,8 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             allow_add: true
             fields:
-              - {label: Src, name: avatar, widget: string}
-              - {label: Alt, name: name, widget: string}
+              - {label: Src, name: src, widget: string}
+              - {label: Alt, name: alt, widget: string}
           - label: Contact
             name: contact
             widget: object
