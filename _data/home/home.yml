@@ -61,9 +61,16 @@ services:
         paperwork. </p>
       icon: icon-megaphone
       title: Auto glass services
+    - content: >-
+        <p>A full auto restoration entails completely disassembling the vehicle
+        and restoring each and every part and system. This process limits
+        ongoing maintenance and future restoration situations. Our auto body
+        restoration experts carefully plan and properly complete all body work
+        and fabrication services to ensure excellence.</p>
+      icon: icon-megaphone
+      title: Complete Restoration
   subtitle: Services
   title: What we do
-  background-image: "/images/services-bg.jpg"
 portfolio:
   content: >-
     Our family based team will take care of every detail to ensure your complete
@@ -162,7 +169,6 @@ clients:
     src: images/clients/wordpress.png
 contact:
   action-title: Send Us A Message
-  background-image: "/images/contact-bg.jpg"
   content: >-
     Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu
     erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
