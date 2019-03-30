@@ -79,6 +79,11 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string, default: 'Services'}
               - {label: Subtitle, name: subtitle, widget: string, default: 'What we do'}
+              - label: "Background Image"
+                name: "background-image"
+                widget: "image"
+                default: "/images/services-bg.jpg"
+                required: false
               - {label: Content, name: content, widget: text}
               - label: "Items" 
                 name: "items" 

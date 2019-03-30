@@ -55,6 +55,7 @@ services:
       title: Scratch removal
   subtitle: Services
   title: What we do
+  background-image: "/images/services-bg.jpg"
 portfolio:
   content: >-
     Our family based team will take care of every detail to ensure your complete
