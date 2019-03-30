@@ -81,6 +81,8 @@ services:
         carefully complete all body work and fabrication services to ensure
         excellence.</p>
       icon: icon-megaphone
+      fa: false
+      image: "/images/dent.png"
       title: Complete Restoration
 portfolio:
   content: >-
