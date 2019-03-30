@@ -17,7 +17,7 @@ about:
 services:
   subtitle: Services
   title: What we do
-  background-image: "/images/services-bg.jpg"
+  background-image: ''
   content: >-
     We can take care of anything from frame straightening, to scratch and dent
     removal, to window replacement, to a fresh coat of paint or complete vehicle
@@ -176,7 +176,7 @@ clients:
     src: images/clients/wordpress.png
 contact:
   action-title: Send Us A Message
-  background-image: "/images/contact-bg.jpg"
+  background-image: ''
   content: >-
     Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu
     erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
