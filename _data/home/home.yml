@@ -15,6 +15,9 @@ about:
     fender bender or a head on collision we can handle the job. 
   title: about us
 services:
+  subtitle: Services
+  title: What we do
+  background-image: "/images/services-bg.jpg"
   content: >-
     We can take care of anything from frame straightening, to scratch and dent
     removal, to window replacement, to a fresh coat of paint or complete vehicle
@@ -79,9 +82,6 @@ services:
         excellence.</p>
       icon: icon-megaphone
       title: Complete Restoration
-  subtitle: Services
-  title: What we do
-  background-image: "/images/services-bg.jpg"
 portfolio:
   content: >-
     Our family based team will take care of every detail to ensure your complete
