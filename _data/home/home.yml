@@ -15,9 +15,7 @@ about:
     fender bender or a head on collision we can handle the job. 
   title: about us
 services:
-  subtitle: Services
-  title: What we do
-  background-image: ''
+  background-image: 'https://ucarecdn.com/9aac9c69-cb53-4e3b-9b88-229fd49fa266/'
   content: >-
     We can take care of anything from frame straightening, to scratch and dent
     removal, to window replacement, to a fresh coat of paint or complete vehicle
@@ -30,9 +28,9 @@ services:
         running as it was before the accident in no time! We use only the best,
         highest quality materials and tools to be able to guarantee all our
         work.</p>
-      icon: icon-paint-brush
       fa: false
-      image: "/images/dent.png"
+      icon: icon-paint-brush
+      image: /images/dent.png
       title: 'Collision Repair '
     - content: >-
         <p>When’s the last time you gave your car a second look? Or ran your
@@ -40,9 +38,9 @@ services:
         Nothing comes in here perfect, but with a new coat of paint, we’ll make
         sure that it leaves that way. Soon, you’ll be back to driving the car
         you always wanted.</p>
-      icon: icon-earth
       fa: false
-      image: "/images/paint.png"
+      icon: icon-earth
+      image: /images/paint.png
       title: Paint Services
     - content: >-
         <p>Our Paintless Dent Repair (PDR) service will bring your vehicle back
@@ -50,9 +48,9 @@ services:
         gently removes the dent, preserving the original paint and finish. In
         most cases, depending on the size and location of the dent. Your vehicle
         can be ready in 1 hour or less. </p>
-      icon: icon-lego-block
       fa: false
-      image: "/images/clients/buffer.png"
+      icon: icon-lego-block
+      image: /images/clients/buffer.png
       title: Dent removal
     - content: >-
         <p>At Trujillo's Auto Repairs we understand that nothing hurts more than
@@ -60,9 +58,9 @@ services:
         your vehicle’s damaged paint with our Scratch Removal services! Whether
         it's damage from a car wash scrubber or a scratch on your door, fender
         or even bumper, we have you covered.</p>
-      icon: icon-megaphone
       fa: false
-      image: "/images/clients/buffer.png"
+      icon: icon-megaphone
+      image: /images/clients/buffer.png
       title: Scratch removal
     - content: >-
         <p>We offer a wide range of auto glass services for cars, pick-ups,
@@ -70,9 +68,9 @@ services:
         expert installation of auto glass for vehicles plus several other
         services. We work with all insurance companies and handle all the
         paperwork. </p>
+      fa: 'false'
       icon: icon-megaphone
-      fa: false
-      image: "/images/dent.png"
+      image: /images/dent.png
       title: Auto glass services
     - content: >-
         <p>A full auto restoration entails completely disassembling the vehicle
@@ -80,10 +78,12 @@ services:
         ongoing maintenance and future restoration situations. Our experts
         carefully complete all body work and fabrication services to ensure
         excellence.</p>
+      fa: 'false'
       icon: icon-megaphone
-      fa: false
-      image: "/images/dent.png"
+      image: /images/dent.png
       title: Complete Restoration
+  subtitle: Services
+  title: What we do
 portfolio:
   content: >-
     Our family based team will take care of every detail to ensure your complete
@@ -178,7 +178,7 @@ clients:
     src: images/clients/wordpress.png
 contact:
   action-title: Send Us A Message
-  background-image: ''
+  background-image: 'https://ucarecdn.com/ead6d3d2-cc4b-4d18-b474-69ef7cba01b4/'
   content: >-
     Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu
     erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
