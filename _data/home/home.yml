@@ -175,6 +175,7 @@ clients:
     src: images/clients/wordpress.png
 contact:
   action-title: Send Us A Message
+  background-image: "/images/contact-bg.jpg"
   content: >-
     Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu
     erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
