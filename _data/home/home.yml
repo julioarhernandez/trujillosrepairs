@@ -180,10 +180,9 @@ contact:
   action-title: Send Us A Message
   background-image: 'https://ucarecdn.com/ead6d3d2-cc4b-4d18-b474-69ef7cba01b4/'
   content: >-
-    Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu
-    erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Praesent sapien massa, convallis a
-    pellentesque nec, egestas non nisi.
+    Please let us know if you have any questions about our services, or a
+    comment you’d like to share. Fill out and submit the form below and a member
+    of our team will be in touch!
   form:
     action: 'https://formspree.io/rafael@trujillosrepairs.com'
   information:
