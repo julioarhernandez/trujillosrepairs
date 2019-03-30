@@ -22,13 +22,13 @@ services:
     boat or Jetski is in good hands. 
   items:
     - content: >-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit.</p>
+        <p>We do anything from cleaning your headlights to pulling and
+        straightening your bent/damaged frame. We will have your car back up and
+        running as it was before the accident in no time! We use only the best,
+        highest quality materials and tools to be able to guarantee all our
+        work.</p>
       icon: icon-paint-brush
-      title: Branding
+      title: 'Collision Repair '
     - content: >-
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
