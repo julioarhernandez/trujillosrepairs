@@ -30,7 +30,7 @@ services:
         work.</p>
       fa: false
       icon: icon-paint-brush
-      image: /images/dent.png
+      image: 'https://ucarecdn.com/8b13213d-6143-460d-845d-09c6e09f52ae/'
       title: 'Collision Repair '
     - content: >-
         <p>When’s the last time you gave your car a second look? Or ran your
