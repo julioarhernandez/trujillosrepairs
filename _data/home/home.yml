@@ -40,7 +40,7 @@ services:
         you always wanted.</p>
       fa: false
       icon: icon-earth
-      image: /images/paint.png
+      image: 'https://ucarecdn.com/95735186-2da6-45b2-92bb-c0e7e1755656/'
       title: Paint Services
     - content: >-
         <p>Our Paintless Dent Repair (PDR) service will bring your vehicle back
