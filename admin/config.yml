@@ -89,7 +89,11 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "list"
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Icon, name: icon, widget: string}
+                  - {label: Icon?, name: fa, widget: string}
+                  - {label: Icon Class, name: icon, widget: string}
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
                   - {label: Content, name: content, widget: text}
           - label: "Portfolio"
             name: portfolio

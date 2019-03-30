@@ -1944,6 +1944,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   margin-bottom: 1.5rem;
 }
+#services .services-list .icon img{
+  width: 7.4rem;
+  height: 7.4rem;
+  margin: 0 auto 1.2rem auto;
+  display: block;
+  border-radius: 50%;
+  vertical-align: middle;
+}
 #services .services-list .icon i {
   font-size: 5.4rem;
   color: var(--primary-color);

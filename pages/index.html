@@ -82,7 +82,13 @@ permalink: /
         <div class="services-list block-1-2 block-tab-full group">
             {% for service in site.data.home.home.services.items %}
             <div class="bgrid service-item animate-this">
-                <span class="icon"><i class="{{ service.icon }}"></i></span>
+                <span class="icon">
+                    {% if service.fa %}
+                        <i class="{{ service.icon }}"></i>
+                    {% else %}
+                        <img src="{{ service.image }}" class="service_icon" alt="{{ service.title }}"/>
+                    {% endif %}
+                </span>
                 <div class="service-content">
                     <h3 class="h05">{{ service.title }}</h3>
                     {{ service.content }}

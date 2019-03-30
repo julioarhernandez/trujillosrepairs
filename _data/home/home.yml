@@ -28,6 +28,8 @@ services:
         highest quality materials and tools to be able to guarantee all our
         work.</p>
       icon: icon-paint-brush
+      fa: false
+      image: "/images/dent.png"
       title: 'Collision Repair '
     - content: >-
         <p>When’s the last time you gave your car a second look? Or ran your
@@ -36,6 +38,8 @@ services:
         sure that it leaves that way. Soon, you’ll be back to driving the car
         you always wanted.</p>
       icon: icon-earth
+      fa: false
+      image: "/images/paint.png"
       title: Paint Services
     - content: >-
         <p>Our Paintless Dent Repair (PDR) service will bring your vehicle back
@@ -44,6 +48,8 @@ services:
         most cases, depending on the size and location of the dent. Your vehicle
         can be ready in 1 hour or less. </p>
       icon: icon-lego-block
+      fa: false
+      image: "/images/clients/buffer.png"
       title: Dent removal
     - content: >-
         <p>At Trujillo's Auto Repairs we understand that nothing hurts more than
@@ -52,6 +58,8 @@ services:
         it's damage from a car wash scrubber or a scratch on your door, fender
         or even bumper, we have you covered.</p>
       icon: icon-megaphone
+      fa: false
+      image: "/images/clients/buffer.png"
       title: Scratch removal
     - content: >-
         <p>We offer a wide range of auto glass services for cars, pick-ups,
@@ -60,6 +68,8 @@ services:
         services. We work with all insurance companies and handle all the
         paperwork. </p>
       icon: icon-megaphone
+      fa: false
+      image: "/images/dent.png"
       title: Auto glass services
   subtitle: Services
   title: What we do
