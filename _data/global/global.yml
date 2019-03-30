@@ -1,4 +1,10 @@
 brand: "Trujillo's Repairs"
+colors:
+  primary: "#f9a828"
+  secondary: "#ffffff"
+  third: "#f2f2f2"
+  fourth: "#07617d"
+  fifth: "#111111"
 social:
 -
   icon: 'fa-twitter'
