@@ -46,11 +46,11 @@ services:
       icon: icon-lego-block
       title: Dent removal
     - content: >-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit.</p>
+        <p>At Trujillo's Auto Repairs we understand that nothing hurts more than
+        that first scratch on your vehicle. Our auto detailing experts can fix
+        your vehicle’s damaged paint with our Scratch Removal services! Whether
+        it's damage from a car wash scrubber or a scratch on your door, fender
+        or even bumper, we have you covered.</p>
       icon: icon-megaphone
       title: Marketing
   subtitle: Services
