@@ -53,6 +53,14 @@ services:
         or even bumper, we have you covered.</p>
       icon: icon-megaphone
       title: Scratch removal
+    - content: >-
+        <p>We offer a wide range of auto glass services for cars, pick-ups,
+        trucks & more. Our experienced team of skilled professionals provides
+        expert installation of auto glass for vehicles plus several other
+        services. We work with all insurance companies and handle all the
+        paperwork. </p>
+      icon: icon-megaphone
+      title: Auto glass services
   subtitle: Services
   title: What we do
 portfolio:
