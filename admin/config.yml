@@ -19,6 +19,15 @@ collections: # A list of collections the CMS should be able to edit
         name: "global"
         file: "_data/global/global.yml"
         fields:
+          - label: "Colors"
+            name: "colors"
+            widget: "object"
+            fields:
+              - {label: Primary, name: primary, widget: string}
+              - {label: Secondary, name: secondary, widget: string}
+              - {label: Third, name: third, widget: string}
+              - {label: Fourth, name: fourth, widget: string}
+              - {label: Fifth, name: fifth, widget: string}
           - {label: Brand, name: brand, widget: string, hint: "Brand Name"}
           - label: "Social" 
             name: "social" 
