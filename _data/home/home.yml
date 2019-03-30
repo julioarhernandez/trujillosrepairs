@@ -30,21 +30,21 @@ services:
       icon: icon-paint-brush
       title: 'Collision Repair '
     - content: >-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit.</p>
+        <p>When’s the last time you gave your car a second look? Or ran your
+        fingers across the hood? It’s time you fell back in love with your car.
+        Nothing comes in here perfect, but with a new coat of paint, we’ll make
+        sure that it leaves that way. Soon, you’ll be back to driving the car
+        you always wanted.</p>
       icon: icon-earth
-      title: Web Design
+      title: Paint Services
     - content: >-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit.</p>
+        <p>Our Paintless Dent Repair (PDR) service will bring your vehicle back
+        to its original beauty. Using uniquely crafted tools. The technician
+        gently removes the dent, preserving the original paint and finish. In
+        most cases, depending on the size and location of the dent. Your vehicle
+        can be ready in 1 hour or less. </p>
       icon: icon-lego-block
-      title: Web Development
+      title: Dent removal
     - content: >-
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
