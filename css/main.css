@@ -1519,6 +1519,11 @@ header .header-logo a {
   min-height: 804px;
   position: relative;
 }
+@supports (-webkit-overflow-scrolling: touch) {
+  #home {
+    background-attachment: initial;
+  }
+}
 #home .overlay {
   position: absolute;
   top: 0;
