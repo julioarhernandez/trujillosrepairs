@@ -152,26 +152,26 @@ testimonials:
   title: What They Say About Us.
 clients:
   - alt: audi
+    resize: ''
     src: 'https://ucarecdn.com/674f61e2-257b-4830-a268-fcd803d37e7c/'
-    resize: 70x70
   - alt: toyota
+    resize: ''
     src: 'https://ucarecdn.com/bd5a0889-7f87-4a12-bf7d-990509df1395/'
-    resize: 70x70
   - alt: lexus
+    resize: ''
     src: 'https://ucarecdn.com/45322b6a-6813-4e98-8f91-b787348f015d/'
-    resize: 70x70
   - alt: hyundai
+    resize: ''
     src: 'https://ucarecdn.com/2cdc5e0b-7290-4e2f-8d75-136e82bccba7/'
-    resize: 70x70
   - alt: mazda
+    resize: ''
     src: 'https://ucarecdn.com/c4896a46-214b-4a1d-8b4d-a66c259b246c/'
-    resize: 70x70
   - alt: honda
+    resize: ''
     src: 'https://ucarecdn.com/0c15db88-c9d5-4386-a0bd-0798c30e9fdc/'
-    resize: 70x70
   - alt: mercedes benz
-    src: 'https://ucarecdn.com/17285942-c8d4-4d54-93c5-462a9e4317a0/'
-    resize: 70x70
+    resize: ''
+    src: 'https://ucarecdn.com/6c452c12-36f0-4827-8dc2-fbb21bd345e4/'
 contact:
   action-title: Send Us A Message
   background-image: 'https://ucarecdn.com/ead6d3d2-cc4b-4d18-b474-69ef7cba01b4/'
