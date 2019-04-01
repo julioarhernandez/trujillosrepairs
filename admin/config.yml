@@ -124,7 +124,7 @@ collections: # A list of collections the CMS should be able to edit
                 allow_add: true
                 widget: "list"
                 fields:
-                  - {label: Avatar, name: avatar, widget: string}
+                  - {label: Avatar, name: avatar, widget: image}
                   - {label: Name, name: name, widget: string}
                   - {label: Position, name: position, widget: string}
                   - {label: Content, name: content, widget: text}
@@ -133,7 +133,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             allow_add: true
             fields:
-              - {label: Src, name: src, widget: string}
+              - {label: Src, name: src, widget: image}
               - {label: Alt, name: alt, widget: string}
           - label: Contact
             name: contact
