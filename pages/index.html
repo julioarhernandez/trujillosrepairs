@@ -204,7 +204,7 @@ permalink: /
 
             <div class="client-lists owl-carousel">
                 {% for item in site.data.home.home.clients %}
-                    <div><img src="{{ item.src }}{% if item.resize !== '' %}-/resize/{{ item.resize }}/{% endif %}" alt="{{ item.alt }}"></div>
+                    <div><img src="{{ item.src }}{% if item.resize != '' %}-/resize/{{ item.resize }}/{% endif %}" alt="{{ item.alt }}"></div>
                 {% endfor %}
             </div>
 
