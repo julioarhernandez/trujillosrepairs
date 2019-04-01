@@ -134,6 +134,7 @@ collections: # A list of collections the CMS should be able to edit
             allow_add: true
             fields:
               - {label: Src, name: src, widget: image}
+              - {label: Resize, name: resize, widget: text, hint: '70x70'}
               - {label: Alt, name: alt, widget: string}
           - label: Contact
             name: contact
