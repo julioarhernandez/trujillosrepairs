@@ -50,7 +50,7 @@ services:
         can be ready in 1 hour or less. </p>
       fa: false
       icon: icon-lego-block
-      image: /images/clients/buffer.png
+      image: 'https://ucarecdn.com/8e5d2a83-ed99-4dbe-9665-dd37fca96647/'
       title: Dent removal
     - content: >-
         <p>At Trujillo's Auto Repairs we understand that nothing hurts more than
@@ -60,7 +60,7 @@ services:
         or even bumper, we have you covered.</p>
       fa: false
       icon: icon-megaphone
-      image: /images/clients/buffer.png
+      image: 'https://ucarecdn.com/96b5523e-a753-439f-adb4-9d93473ddbfc/'
       title: Scratch removal
     - content: >-
         <p>We offer a wide range of auto glass services for cars, pick-ups,
@@ -70,7 +70,7 @@ services:
         paperwork. </p>
       fa: 'false'
       icon: icon-megaphone
-      image: /images/dent.png
+      image: 'https://ucarecdn.com/07ae1aa2-1041-43f5-afe8-4c67c6937ccd/'
       title: Auto glass services
     - content: >-
         <p>A full auto restoration entails completely disassembling the vehicle
@@ -80,7 +80,7 @@ services:
         excellence.</p>
       fa: 'false'
       icon: icon-megaphone
-      image: /images/dent.png
+      image: 'https://ucarecdn.com/65d27a35-3c1c-4901-8cd5-f56fb63740c4/'
       title: Complete Restoration
   subtitle: Services
   title: What we do
