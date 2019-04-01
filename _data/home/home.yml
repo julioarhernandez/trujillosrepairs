@@ -151,28 +151,20 @@ testimonials:
       position: Customer
   title: What They Say About Us.
 clients:
+  - alt: audi
+    src: 'https://ucarecdn.com/674f61e2-257b-4830-a268-fcd803d37e7c/'
+  - alt: toyota
+    src: 'https://ucarecdn.com/bd5a0889-7f87-4a12-bf7d-990509df1395/'
+  - alt: lexus
+    src: 'https://ucarecdn.com/45322b6a-6813-4e98-8f91-b787348f015d/'
+  - alt: hyundai
+    src: 'https://ucarecdn.com/2cdc5e0b-7290-4e2f-8d75-136e82bccba7/'
+  - alt: mazda
+    src: 'https://ucarecdn.com/c4896a46-214b-4a1d-8b4d-a66c259b246c/'
+  - alt: honda
+    src: 'https://ucarecdn.com/0c15db88-c9d5-4386-a0bd-0798c30e9fdc/'
   - alt: mozilla
-    src: images/clients/mozilla.png
-  - alt: mozilla
-    src: images/clients/bower.png
-  - alt: mozilla
-    src: images/clients/codepen.png
-  - alt: mozilla
-    src: images/clients/envato.png
-  - alt: mozilla
-    src: images/clients/firefox.png
-  - alt: mozilla
-    src: images/clients/grunt.png
-  - alt: mozilla
-    src: images/clients/evernote.png
-  - alt: mozilla
-    src: images/clients/github.png
-  - alt: mozilla
-    src: images/clients/joomla.png
-  - alt: mozilla
-    src: images/clients/jQuery.png
-  - alt: mozilla
-    src: images/clients/wordpress.png
+    src: 'https://ucarecdn.com/17285942-c8d4-4d54-93c5-462a9e4317a0/'
 contact:
   action-title: Send Us A Message
   background-image: 'https://ucarecdn.com/ead6d3d2-cc4b-4d18-b474-69ef7cba01b4/'
