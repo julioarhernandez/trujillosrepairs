@@ -1,6 +1,9 @@
 seo:
-  description: Description of page
-  title: Title of page
+  description: >-
+    We are a team of cars lovers. Our leader, Rafael Trujillo, has been in the
+    Auto Body Industry for over 20 years. Whether your automobile has been in a
+    fender bender or a head on collision we can handle the job. 
+  title: Repair Auto Body Shop | Miami auto body shop repair services
 header:
   background-image: 'https://ucarecdn.com/6c468287-97e8-40ce-b9d7-f8f55c5c8b8a/'
   button:
@@ -15,7 +18,7 @@ about:
     fender bender or a head on collision we can handle the job. 
   title: about us
 services:
-  background-image: 'https://ucarecdn.com/3a2dd55f-550d-4f0d-adb1-77b45607c8d7/'
+  background-image: 'https://ucarecdn.com/029f997e-105e-4eff-9603-bb91a84cf686/'
   content: >-
     We can take care of anything from frame straightening, to scratch and dent
     removal, to window replacement, to a fresh coat of paint or complete vehicle
