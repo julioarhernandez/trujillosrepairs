@@ -89,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "list"
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Icon?, name: fa, widget: select, options: ["true", "false"]}
+                  - {label: Icon?, name: fa, widget: select, options: ["true", "false"], default: "false"}
                   - {label: Icon Class, name: icon, widget: string}
                   - label: "Image"
                     name: "image"
@@ -110,8 +110,8 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Subtitle, name: subtitle, widget: string}
                   - {label: Title, name: title, widget: string}
-                  - {label: Data-src, name: data-src, widget: string}
-                  - {label: Src, name: src, widget: string}
+                  - {label: Data-src, name: data-src, widget: image, hint: "smaller file size"}
+                  - {label: Src, name: src, widget: image, hint: "bigger file size"}
                   - {label: Link, name: link, widget: string,  required: false}
                   - {label: Content, name: content, widget: text,  required: false}
           - label: "Testimonials"
