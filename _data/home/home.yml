@@ -33,7 +33,8 @@ services:
         work.</p>
       fa: 'false'
       icon: icon-paint-brush
-      image: 'https://ucarecdn.com/144bd4dd-2dd1-46c4-8af2-d061611c4cc8/-/preview/'
+      image: 'https://ucarecdn.com/144bd4dd-2dd1-46c4-8af2-d061611c4cc8/'
+      resize: '70x70'
       title: 'Collision Repair '
     - content: >-
         <p>When’s the last time you gave your car a second look? Or ran your
@@ -44,6 +45,7 @@ services:
       fa: 'false'
       icon: icon-earth
       image: 'https://ucarecdn.com/f9367e77-1294-4042-984b-187cf0b47cc7/'
+      resize: '70x70'
       title: Paint Services
     - content: >-
         <p>Our Paintless Dent Repair (PDR) service will bring your vehicle back
@@ -54,6 +56,7 @@ services:
       fa: 'false'
       icon: icon-lego-block
       image: 'https://ucarecdn.com/8e5d2a83-ed99-4dbe-9665-dd37fca96647/'
+      resize: '70x70'
       title: Dent removal
     - content: >-
         <p>At Trujillo's Auto Repairs we understand that nothing hurts more than
@@ -74,6 +77,7 @@ services:
       fa: 'false'
       icon: icon-megaphone
       image: 'https://ucarecdn.com/07ae1aa2-1041-43f5-afe8-4c67c6937ccd/'
+      resize: '70x70'
       title: Auto glass services
     - content: >-
         <p>A full auto restoration entails completely disassembling the vehicle
@@ -84,6 +88,7 @@ services:
       fa: 'false'
       icon: icon-megaphone
       image: 'https://ucarecdn.com/65d27a35-3c1c-4901-8cd5-f56fb63740c4/'
+      resize: '70x70'
       title: Complete Restoration
   subtitle: Services
   title: What we do

@@ -86,7 +86,7 @@ permalink: /
                     {% if service.fa == 'true' %}
                         <i class="{{ service.icon }}"></i>
                     {% else %}
-                        <img src="{{ service.image }}" class="service_icon" alt="{{ service.title }}"/>
+                        <img src="{{ service.image }}{% if service.resize != '' %}-/resize/{{ service.resize }}/{% endif %}" class="service_icon" alt="{{ service.title }}"/>
                     {% endif %}
                 </span>
                 <div class="service-content">
@@ -136,7 +136,7 @@ permalink: /
                                 <h3 class="folio-title">{{items.title}}</h3>
                             </div>
                         </a>
-                        {% if items.link %}
+                        {% if items.link != '' %}
                         <a href="{{items.link}}" class='details-link' title="details">
                             <i class="icon-link"></i>
                         </a>

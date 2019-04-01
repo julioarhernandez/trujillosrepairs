@@ -95,6 +95,7 @@ collections: # A list of collections the CMS should be able to edit
                     name: "image"
                     widget: "image"
                     required: false
+                  - {label: Resize, name: resize, widget: string, hint: '70x70', required: false}
                   - {label: Content, name: content, widget: text}
           - label: "Portfolio"
             name: portfolio
