@@ -83,7 +83,7 @@ permalink: /
             {% for service in site.data.home.home.services.items %}
             <div class="bgrid service-item animate-this">
                 <span class="icon">
-                    {% if service.fa %}
+                    {% if service.fa = 'true' %}
                         <i class="{{ service.icon }}"></i>
                     {% else %}
                         <img src="{{ service.image }}" class="service_icon" alt="{{ service.title }}"/>
