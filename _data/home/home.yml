@@ -30,7 +30,7 @@ services:
         work.</p>
       fa: false
       icon: icon-paint-brush
-      image: 'https://ucarecdn.com/20b862e4-143a-4b8a-953a-76defe5e42a5/'
+      image: 'https://ucarecdn.com/144bd4dd-2dd1-46c4-8af2-d061611c4cc8/-/preview/'
       title: 'Collision Repair '
     - content: >-
         <p>When’s the last time you gave your car a second look? Or ran your
@@ -40,7 +40,7 @@ services:
         you always wanted.</p>
       fa: false
       icon: icon-earth
-      image: 'https://ucarecdn.com/95735186-2da6-45b2-92bb-c0e7e1755656/'
+      image: 'https://ucarecdn.com/f9367e77-1294-4042-984b-187cf0b47cc7/'
       title: Paint Services
     - content: >-
         <p>Our Paintless Dent Repair (PDR) service will bring your vehicle back
@@ -91,48 +91,42 @@ portfolio:
     to serve you and answer any questions you may have. We love what we do and
     take pride in the quality of our work. 
   items:
-    - content: >-
-        Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim
-        proident tempor sunt quis nulla voluptate fugiat velit.
+    - content: ''
       data-src: images/portfolio/gallery/g-shutterbug.jpg
-      link: 'https://www.behance.net/'
+      link: ''
       src: images/portfolio/shutterbug.jpg
-      subtitle: Web Development
-    - content: >-
-        Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim
-        proident tempor sunt quis nulla voluptate fugiat velit.
+      subtitle: Car
+      title: Car something
+    - content: ''
       data-src: images/portfolio/gallery/g-yellowwall.jpg
-      link: 'https://www.behance.net/'
+      link: ''
       src: images/portfolio/yellowwall.jpg
       subtitle: Web Development
-    - content: >-
-        Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim
-        proident tempor sunt quis nulla voluptate fugiat velit.
+      title: Car something
+    - content: ''
       data-src: images/portfolio/gallery/g-architecture.jpg
-      link: 'https://www.behance.net/'
+      link: ''
       src: images/portfolio/architecture.jpg
       subtitle: Web Development
-    - content: >-
-        Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim
-        proident tempor sunt quis nulla voluptate fugiat velit.
+      title: Car somehting
+    - content: ''
       data-src: images/portfolio/gallery/g-minimalismo.jpg
-      link: 'https://www.behance.net/'
+      link: ''
       src: images/portfolio/minimalismo.jpg
       subtitle: Web Development
-    - content: >-
-        Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim
-        proident tempor sunt quis nulla voluptate fugiat velit.
+      title: Car sitme
+    - content: ''
       data-src: images/portfolio/gallery/g-skaterboy.jpg
-      link: 'https://www.behance.net/'
+      link: ''
       src: images/portfolio/skaterboy.jpg
       subtitle: Web Development
-    - content: >-
-        Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim
-        proident tempor sunt quis nulla voluptate fugiat velit.
+      title: car
+    - content: ''
       data-src: images/portfolio/gallery/g-salad.jpg
-      link: 'https://www.behance.net/'
+      link: ''
       src: images/portfolio/salad.jpg
       subtitle: Web Development
+      title: ssdf sdf sdfs
   subtitle: Showcase
   title: See Our Featured Projects.
 testimonials:
