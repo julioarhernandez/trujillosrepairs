@@ -35,6 +35,32 @@
 @import url("micons/micons.css");
 @import url("fonts.css");
 
+ /* ===================================================================
+ *  00. Colors
+ *
+ * ------------------------------------------------------------------- */
+
+.primary-color{
+  color: var(--primary-color) !important;
+}
+
+.secondary-color{
+  color: var(--secondary-color) !important;
+}
+
+.third-color{
+  color: var(--third-color) !important;
+}
+
+.fourth-color{
+  color: var(--fourth-color) !important;
+}
+
+.fifth-color{
+  color: var(--fifth-color);
+}
+
+
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
