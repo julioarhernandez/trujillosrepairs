@@ -136,14 +136,16 @@ permalink: /
                                 <h3 class="folio-title">{{items.title}}</h3>
                             </div>
                         </a>
+                        {% if items.link %}
                         <a href="{{items.link}}" class='details-link' title="details">
                             <i class="icon-link"></i>
                         </a>
+                        {% endif %}
                     </div> <!-- end item-wrap -->
 
                     <div id="id{{forloop.index}}" class='hide'>
                         <h4>{{items.title}}</h4>
-                        <p>{{items.content}}<a href="{{items.link}}">Details</a></p>
+                        {% if items.content %}<p>{{items.content}} {% if items.link %}<a href="{{items.link}}">Details</a>{% endif %}</p>{% endif %}
                     </div>
                 </div> <!-- end folio-item -->
 				{% endfor %}
