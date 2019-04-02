@@ -67,6 +67,7 @@ services:
       fa: 'false'
       icon: icon-megaphone
       image: 'https://ucarecdn.com/96b5523e-a753-439f-adb4-9d93473ddbfc/'
+      resize: 70x70
       title: Scratch removal
     - content: >-
         <p>We offer a wide range of auto glass services for cars, pick-ups,
