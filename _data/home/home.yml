@@ -101,15 +101,15 @@ portfolio:
     take pride in the quality of our work. 
   items:
     - content: ''
-      data-src: images/portfolio/gallery/g-shutterbug.jpg
+      data-src: 'https://ucarecdn.com/3a423e20-13a5-4f58-8730-b5638e7ea1e7/'
       link: ''
-      src: images/portfolio/shutterbug.jpg
+      src: 'https://ucarecdn.com/3b85260c-ea99-4c78-9900-297903464f8c/'
       subtitle: Car
       title: Car something
     - content: ''
-      data-src: images/portfolio/gallery/g-yellowwall.jpg
+      data-src: 'https://ucarecdn.com/824cf0a3-adcc-42ad-b9fe-b7330a852183/'
       link: ''
-      src: images/portfolio/yellowwall.jpg
+      src: 'https://ucarecdn.com/66622deb-9332-408f-b677-3e8be50c7ab9/'
       subtitle: Web Development
       title: Car something
     - content: ''
