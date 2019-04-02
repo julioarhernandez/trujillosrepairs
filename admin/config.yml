@@ -111,7 +111,6 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Subtitle, name: subtitle, widget: string}
                   - {label: Title, name: title, widget: string}
-                  - {label: Data-src, name: data-src, widget: image, hint: "smaller file size"}
                   - {label: Src, name: src, widget: image, hint: "bigger file size"}
                   - {label: Link, name: link, widget: string,  required: false}
                   - {label: Content, name: content, widget: text,  required: false}
