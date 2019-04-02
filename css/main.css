@@ -1588,7 +1588,7 @@ header .header-logo a {
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
-  font-size: 9rem;
+  font-size: 7rem;
   line-height: 1.133;
   color: var(--secondary-color);
 }
