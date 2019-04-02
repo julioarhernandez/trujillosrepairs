@@ -10,7 +10,7 @@ header:
     href: '#about'
     text: Learn More
   subtitle: We are Trujillo's Repairs
-  title: 'Auto Body Repair <br/>& Collision  Repair Services '
+  title: 'Car Repair &<br/> Body Shop Services '
 about:
   content: >-
     We are a team of cars lovers. Our leader, Rafael Trujillo, has been in the
@@ -68,7 +68,6 @@ services:
       icon: icon-megaphone
       image: 'https://ucarecdn.com/96b5523e-a753-439f-adb4-9d93473ddbfc/'
       title: Scratch removal
-      resize: 70x70
     - content: >-
         <p>We offer a wide range of auto glass services for cars, pick-ups,
         trucks & more. Our experienced team of skilled professionals provides
