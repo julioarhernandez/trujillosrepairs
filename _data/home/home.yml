@@ -101,37 +101,31 @@ portfolio:
     take pride in the quality of our work. 
   items:
     - content: ''
-      data-src: images/portfolio/gallery/g-shutterbug.jpg
       link: ''
       src: images/portfolio/shutterbug.jpg
       subtitle: Car
       title: Car something
     - content: ''
-      data-src: images/portfolio/gallery/g-yellowwall.jpg
       link: ''
       src: images/portfolio/yellowwall.jpg
       subtitle: Web Development
       title: Car something
     - content: ''
-      data-src: images/portfolio/gallery/g-architecture.jpg
       link: ''
       src: images/portfolio/architecture.jpg
       subtitle: Web Development
       title: Car somehting
     - content: ''
-      data-src: images/portfolio/gallery/g-minimalismo.jpg
       link: ''
       src: images/portfolio/minimalismo.jpg
       subtitle: Web Development
       title: Car sitme
     - content: ''
-      data-src: images/portfolio/gallery/g-skaterboy.jpg
       link: ''
       src: images/portfolio/skaterboy.jpg
       subtitle: Web Development
       title: car
     - content: ''
-      data-src: images/portfolio/gallery/g-salad.jpg
       link: ''
       src: images/portfolio/salad.jpg
       subtitle: Web Development
