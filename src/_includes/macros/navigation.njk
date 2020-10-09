@@ -1,0 +1,14 @@
+{% macro renderNavListItem(entry, page) -%}
+    <li class="nav-item pr-lg-3{% if entry.url == page.url %} active{% endif %} position-relative">
+        {%- if not entry.children.length -%}
+            <a href="{{ entry.url | url }}" class="nav-link btn-link  -medium -dark btn-no-underline{% if entry.url == page.url %}  font-weight-bold{% else %}  font-weight-light{% endif %}">{{ entry.title }}</a>
+        {%- else -%}
+            <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle btn-link  -medium -dark btn-no-underline{% if entry.url == page.url %}  font-weight-bold{% else %}  font-weight-light{% endif %}" >{{ entry.title }}</a>
+            <div class="dropdown-menu border-0 dropdown-menu-right shadow-lg p-4">
+                {%- for child in entry.children %}
+                    <a class="dropdown-item text-center text-lg-right nav-link btn-link -medium -dark btn-no-underline{% if child.url == page.url %} font-weight-bold{% else %} font-weight-light{% endif %}" href="{{child.url | url}}">{{child.title}}</a>
+                {% endfor -%}
+            </div>
+        {%- endif -%}
+</li>
+{%- endmacro %}

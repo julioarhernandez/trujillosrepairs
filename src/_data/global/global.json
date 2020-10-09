@@ -1,0 +1,26 @@
+{
+   "colors": {
+      "fifth": "#111111",
+      "fourth": "#d9000f",
+      "primary": "#d9000f",
+      "secondary": "#ffffff",
+      "third": "#f2f2f2"
+   },
+   "brand": "Trujillo's Repairs",
+   "social": [
+      {
+         "btn": "btn-facebook",
+         "class": "icon-1",
+         "href": "https://www.facebook.com/trujillosrepairs19",
+         "icon": "fa-facebook-square",
+         "name": "facebook"
+      },
+      {
+         "btn": "btn-instagram",
+         "class": "icon-1",
+         "href": "https://www.instagram.com/trujillosrepairs/",
+         "icon": "fa-instagram",
+         "name": "instagram"
+      }
+   ]
+}

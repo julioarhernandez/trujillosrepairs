@@ -1,7 +1,7 @@
-_site
-.sass-cache
-.jekyll-metadata
 node_modules
-assets
-.DS_store
 .idea/
+_site/
+# Local Netlify folder
+.netlify
+.DS_store
+.cache/
