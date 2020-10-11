@@ -89,7 +89,7 @@
                     {% if service.fa == 'true' %}
                         <i class="{{ service.icon }}"></i>
                     {% else %}
-                        <img src="{{ service.image }}{% if service.resize != '' %}-/resize/{{ service.resize }}/{% endif %}" class="service_icon" alt="{{ service.title }}"/>
+                        {% myImage service.image, 'Our work', 'service_icon', service.resize %}
                     {% endif %}
                 </span>
                 <div class="service-content">

@@ -24,48 +24,48 @@
             "content": "<p>We do anything from cleaning your headlights to pulling and straightening your bent/damaged frame. We will have your car back up and running as it was before the accident in no time! We use only the best, highest quality materials and tools to be able to guarantee all our work.</p>",
             "fa": "false",
             "icon": "icon-paint-brush",
-            "image": "https://ucarecdn.com/144bd4dd-2dd1-46c4-8af2-d061611c4cc8/",
-            "resize": "70x70",
+            "image": "/assets/images/paint.png",
+            "resize": [70],
             "title": "Collision Repair "
          },
          {
             "content": "<p>When’s the last time you gave your car a second look? Or ran your fingers across the hood? It’s time you fell back in love with your car. Nothing comes in here perfect, but with a new coat of paint, we’ll make sure that it leaves that way. Soon, you’ll be back to driving the car you always wanted.</p>",
             "fa": "false",
             "icon": "icon-earth",
-            "image": "https://ucarecdn.com/f9367e77-1294-4042-984b-187cf0b47cc7/",
-            "resize": "70x70",
+            "image": "/assets/images/hero-bg.jpg",
+            "resize": [70],
             "title": "Paint Services"
          },
          {
             "content": "<p>Our Paintless Dent Repair (PDR) service will bring your vehicle back to its original beauty. Using uniquely crafted tools. The technician gently removes the dent, preserving the original paint and finish. In most cases, depending on the size and location of the dent. Your vehicle can be ready in 1 hour or less. </p>",
             "fa": "false",
             "icon": "icon-lego-block",
-            "image": "https://ucarecdn.com/8e5d2a83-ed99-4dbe-9665-dd37fca96647/",
-            "resize": "70x70",
+            "image": "/assets/images/paint.png",
+            "resize": [70],
             "title": "Dent removal"
          },
          {
             "content": "<p>At Trujillo's Auto Repairs we understand that nothing hurts more than that first scratch on your vehicle. Our auto detailing experts can fix your vehicle’s damaged paint with our Scratch Removal services! Whether it's damage from a car wash scrubber or a scratch on your door, fender or even bumper, we have you covered.</p>",
             "fa": "false",
             "icon": "icon-megaphone",
-            "image": "https://ucarecdn.com/96b5523e-a753-439f-adb4-9d93473ddbfc/",
-            "resize": "70x70",
+            "image": "/assets/images/paint.png",
+            "resize": [70],
             "title": "Scratch removal"
          },
          {
             "content": "<p>We offer a wide range of auto glass services for cars, pick-ups, trucks & more. Our experienced team of skilled professionals provides expert installation of auto glass for vehicles plus several other services. We work with all insurance companies and handle all the paperwork. </p>",
             "fa": "false",
             "icon": "icon-megaphone",
-            "image": "https://ucarecdn.com/07ae1aa2-1041-43f5-afe8-4c67c6937ccd/",
-            "resize": "70x70",
+            "image": "/assets/images/paint.png",
+            "resize": [70],
             "title": "Auto glass services"
          },
          {
             "content": "<p>A full auto restoration entails completely disassembling the vehicle and restoring each and every part and system. This process limits ongoing maintenance and future restoration situations. Our experts carefully complete all body work and fabrication services to ensure excellence.</p>",
             "fa": "false",
             "icon": "icon-megaphone",
-            "image": "https://ucarecdn.com/65d27a35-3c1c-4901-8cd5-f56fb63740c4/",
-            "resize": "70x70",
+            "image": "/assets/images/paint.png",
+            "resize": [70],
             "title": "Complete Restoration"
          }
       ],
