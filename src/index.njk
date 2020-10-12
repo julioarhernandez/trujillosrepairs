@@ -207,7 +207,9 @@
 
             <div class="client-lists owl-carousel">
                 {% for item in home.home.clients %}
-                    <div><img src="{{ item.src }}{% if item.resize != '' %}-/resize/{{ item.resize }}/{% endif %}" alt="{{ item.alt }}"></div>
+                    <div>
+                        {% myImage item.src, item.alt , '', 180 %}
+                    </div>
                 {% endfor %}
             </div>
 
