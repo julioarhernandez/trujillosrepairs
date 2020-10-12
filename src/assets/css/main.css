@@ -2487,6 +2487,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -ms-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
+#clients .client-lists .owl-item img{
+  width: 70px;
+}
 #clients .client-lists .owl-item:hover {
   opacity: 1;
 }
