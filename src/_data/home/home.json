@@ -1,197 +1,209 @@
 {
-   "seo": {
-      "description": "We are a team of cars lovers. Our leader, Rafael Trujillo, has been in the Auto Body Industry for over 20 years. Whether your automobile has been in a fender bender or a head on collision we can handle the job.",
-      "title": "Repair Auto Body Shop | Miami auto body shop repair services"
-   },
-   "header": {
-      "backgroundImage": "/assets/images/hero-bg.jpg",
-      "button": {
-         "href": "#about",
-         "text": "Learn More"
-      },
-      "subtitle": "We are Trujillo's Repairs",
-      "title": "Car Repair &<br/> Body Shop Services "
-   },
-   "about": {
-      "content": "We are a team of cars lovers. Our leader, Rafael Trujillo, has been in the Auto Body Industry for over 20 years. Whether your automobile has been in a fender bender or a head on collision we can handle the job.",
-      "title": "about us"
-   },
-   "services": {
-      "backgroundImage": "/assets/images/bg_slider_1.jpg",
-      "content": "We can take care of anything from frame straightening, to scratch and dent removal, to window replacement, to a fresh coat of paint or complete vehicle restoration. With us, you can rest assured that your car, truck, SUV, van, boat or Jetski is in good hands.",
-      "items": [
-         {
-            "content": "<p>We do anything from cleaning your headlights to pulling and straightening your bent/damaged frame. We will have your car back up and running as it was before the accident in no time! We use only the best, highest quality materials and tools to be able to guarantee all our work.</p>",
-            "fa": "false",
-            "icon": "icon-paint-brush",
-            "image": "/assets/images/paint.png",
-            "resize": [70],
-            "title": "Collision Repair "
-         },
-         {
-            "content": "<p>When’s the last time you gave your car a second look? Or ran your fingers across the hood? It’s time you fell back in love with your car. Nothing comes in here perfect, but with a new coat of paint, we’ll make sure that it leaves that way. Soon, you’ll be back to driving the car you always wanted.</p>",
-            "fa": "false",
-            "icon": "icon-earth",
-            "image": "/assets/images/hero-bg.jpg",
-            "resize": [70],
-            "title": "Paint Services"
-         },
-         {
-            "content": "<p>Our Paintless Dent Repair (PDR) service will bring your vehicle back to its original beauty. Using uniquely crafted tools. The technician gently removes the dent, preserving the original paint and finish. In most cases, depending on the size and location of the dent. Your vehicle can be ready in 1 hour or less. </p>",
-            "fa": "false",
-            "icon": "icon-lego-block",
-            "image": "/assets/images/paint.png",
-            "resize": [70],
-            "title": "Dent removal"
-         },
-         {
-            "content": "<p>At Trujillo's Auto Repairs we understand that nothing hurts more than that first scratch on your vehicle. Our auto detailing experts can fix your vehicle’s damaged paint with our Scratch Removal services! Whether it's damage from a car wash scrubber or a scratch on your door, fender or even bumper, we have you covered.</p>",
-            "fa": "false",
-            "icon": "icon-megaphone",
-            "image": "/assets/images/paint.png",
-            "resize": [70],
-            "title": "Scratch removal"
-         },
-         {
-            "content": "<p>We offer a wide range of auto glass services for cars, pick-ups, trucks & more. Our experienced team of skilled professionals provides expert installation of auto glass for vehicles plus several other services. We work with all insurance companies and handle all the paperwork. </p>",
-            "fa": "false",
-            "icon": "icon-megaphone",
-            "image": "/assets/images/paint.png",
-            "resize": [70],
-            "title": "Auto glass services"
-         },
-         {
-            "content": "<p>A full auto restoration entails completely disassembling the vehicle and restoring each and every part and system. This process limits ongoing maintenance and future restoration situations. Our experts carefully complete all body work and fabrication services to ensure excellence.</p>",
-            "fa": "false",
-            "icon": "icon-megaphone",
-            "image": "/assets/images/paint.png",
-            "resize": [70],
-            "title": "Complete Restoration"
-         }
-      ],
-      "subtitle": "Services",
-      "title": "What we do"
-   },
-   "portfolio": {
-      "content": "Our family based team will take care of every detail to ensure your complete satisfaction and that your experience with us is a positive one. We are here to serve you and answer any questions you may have. We love what we do and take pride in the quality of our work.",
-      "items": [
-         {
-            "content": "",
-            "link": "",
-            "src": "https://ucarecdn.com/3b85260c-ea99-4c78-9900-297903464f8c/",
-            "subtitle": "Car",
-            "title": "Car something"
-         },
-         {
-            "content": "",
-            "link": "",
-            "src": "https://ucarecdn.com/66622deb-9332-408f-b677-3e8be50c7ab9/",
-            "subtitle": "Web Development",
-            "title": "Car something"
-         },
-         {
-            "content": "",
-            "link": "",
-            "src": "https://ucarecdn.com/c2c2fd70-da55-43f0-a7cb-28b0bc39294a/",
-            "subtitle": "Web Development",
-            "title": "Car somehting"
-         },
-         {
-            "content": "",
-            "link": "",
-            "src": "https://ucarecdn.com/5e2fec2a-40e7-4208-962a-5d7caf4c9f1b/",
-            "subtitle": "Web Development",
-            "title": "Car sitme"
-         },
-         {
-            "content": "",
-            "link": "",
-            "src": "https://ucarecdn.com/9e2c3fc2-1595-49e9-a4bf-6c330bbfb2a2/",
-            "subtitle": "Web Development",
-            "title": "ssdf sdf sdfs"
-         },
-         {
-            "content": "",
-            "link": "",
-            "src": "https://ucarecdn.com/0f283e9a-5fa6-4fea-86b4-c28568826bd3/",
-            "subtitle": "Web Development",
-            "title": "car"
-         }
-      ],
-      "subtitle": "Showcase",
-      "title": "See Our Featured Projects."
-   },
-   "testimonials": {
-      "items": [
-         {
-            "avatar": "/assets/images/avatars/user-02.jpg",
-            "content": "When you walk into the right place, you can just feel it! At first I wasn't sure what I wanted to do but I wanted to make my Mustang a monster. Trujillo is very knowledgeable, he suggested things but also told me WHY he thinks that would be the best option. You don't find that everywhere.",
-            "name": "Albert Dalmau",
-            "position": "Customer"
-         },
-         {
-            "avatar": "/assets/images/avatars/user-03.jpg",
-            "content": "Great people to work with. They are professionals  and know what they are doing. Will definitely use them again.\n",
-            "name": "Jorge Felix",
-            "position": "Customer"
-         }
-      ],
-      "title": "What They Say About Us."
-   },
-   "clients": [
+  "seo": {
+    "description": "We are a team of cars lovers. Our leader, Rafael Trujillo, has been in the Auto Body Industry for over 20 years. Whether your automobile has been in a fender bender or a head on collision we can handle the job.",
+    "title": "Repair Auto Body Shop | Miami auto body shop repair services"
+  },
+  "header": {
+    "backgroundImage": "/assets/images/hero-bg.jpg",
+    "button": {
+      "href": "#about",
+      "text": "Learn More"
+    },
+    "subtitle": "We are Trujillo's Repairs",
+    "title": "Car Repair &<br/> Body Shop Services "
+  },
+  "about": {
+    "content": "We are a team of cars lovers. Our leader, Rafael Trujillo, has been in the Auto Body Industry for over 20 years. Whether your automobile has been in a fender bender or a head on collision we can handle the job.",
+    "title": "about us"
+  },
+  "services": {
+    "backgroundImage": "/assets/images/bg_slider_1.jpg",
+    "content": "We can take care of anything from frame straightening, to scratch and dent removal, to window replacement, to a fresh coat of paint or complete vehicle restoration. With us, you can rest assured that your car, truck, SUV, van, boat or Jetski is in good hands.",
+    "items": [
       {
-         "alt": "audi",
-         "resize": "",
-         "src": "https://ucarecdn.com/674f61e2-257b-4830-a268-fcd803d37e7c/"
+        "content": "<p>We do anything from cleaning your headlights to pulling and straightening your bent/damaged frame. We will have your car back up and running as it was before the accident in no time! We use only the best, highest quality materials and tools to be able to guarantee all our work.</p>",
+        "fa": "false",
+        "icon": "icon-paint-brush",
+        "image": "/assets/images/collision-repair.jpg",
+        "resize": [
+          70
+        ],
+        "title": "Collision Repair "
       },
       {
-         "alt": "toyota",
-         "resize": "",
-         "src": "https://ucarecdn.com/359a6a2e-1b86-4e7d-9df7-0821d06c2ab2/"
+        "content": "<p>When’s the last time you gave your car a second look? Or ran your fingers across the hood? It’s time you fell back in love with your car. Nothing comes in here perfect, but with a new coat of paint, we’ll make sure that it leaves that way. Soon, you’ll be back to driving the car you always wanted.</p>",
+        "fa": "false",
+        "icon": "icon-earth",
+        "image": "/assets/images/paint.png",
+        "resize": [
+          70
+        ],
+        "title": "Paint Services"
       },
       {
-         "alt": "lexus",
-         "resize": "",
-         "src": "https://ucarecdn.com/84667067-ea85-455e-b882-c1f05e6bb804/"
+        "content": "<p>Our Paintless Dent Repair (PDR) service will bring your vehicle back to its original beauty. Using uniquely crafted tools. The technician gently removes the dent, preserving the original paint and finish. In most cases, depending on the size and location of the dent. Your vehicle can be ready in 1 hour or less. </p>",
+        "fa": "false",
+        "icon": "icon-lego-block",
+        "image": "/assets/images/img_1146-1024x682.jpg",
+        "resize": [
+          70
+        ],
+        "title": "Dent removal"
       },
       {
-         "alt": "hyundai",
-         "resize": "",
-         "src": "https://ucarecdn.com/8b291fc0-db0c-4e8e-904c-f80a4c32402c/"
+        "content": "<p>At Trujillo's Auto Repairs we understand that nothing hurts more than that first scratch on your vehicle. Our auto detailing experts can fix your vehicle’s damaged paint with our Scratch Removal services! Whether it's damage from a car wash scrubber or a scratch on your door, fender or even bumper, we have you covered.</p>",
+        "fa": "false",
+        "icon": "icon-megaphone",
+        "image": "/assets/images/best-paint-scratch-remover.jpg",
+        "resize": [
+          70
+        ],
+        "title": "Scratch removal"
       },
       {
-         "alt": "mazda",
-         "resize": "",
-         "src": "https://ucarecdn.com/038f1447-a7c9-4ae5-8c4f-e1e0a7812ff4/"
+        "content": "<p>We offer a wide range of auto glass services for cars, pick-ups, trucks & more. Our experienced team of skilled professionals provides expert installation of auto glass for vehicles plus several other services. We work with all insurance companies and handle all the paperwork. </p>",
+        "fa": "false",
+        "icon": "icon-megaphone",
+        "image": "/assets/images/mobileglass1-544_0.jpg",
+        "resize": [
+          70
+        ],
+        "title": "Auto glass services"
       },
       {
-         "alt": "honda",
-         "resize": "",
-         "src": "https://ucarecdn.com/80840580-6298-4080-a77d-02dc903d2c0f/"
-      },
-      {
-         "alt": "mercedes benz",
-         "resize": "",
-         "src": "https://ucarecdn.com/6c452c12-36f0-4827-8dc2-fbb21bd345e4/"
+        "content": "<p>A full auto restoration entails completely disassembling the vehicle and restoring each and every part and system. This process limits ongoing maintenance and future restoration situations. Our experts carefully complete all body work and fabrication services to ensure excellence.</p>",
+        "fa": "false",
+        "icon": "icon-megaphone",
+        "image": "/assets/images/c3257ef225b426677ab53ff158a81784.jpg",
+        "resize": [
+          70
+        ],
+        "title": "Complete Restoration"
       }
-   ],
-   "contact": {
-      "actionTitle": "Send Us A Message",
-      "backgroundImage": "/assets/images/slide2.jpg",
-      "content": "Please let us know if you have any questions about our services, or a comment you’d like to share. Fill out and submit the form below and a member of our team will be in touch!",
-      "form": {
-         "action": "https://formspree.io/rafael@trujillosrepairs.com"
+    ],
+    "subtitle": "Services",
+    "title": "What we do"
+  },
+  "portfolio": {
+    "content": "Our family based team will take care of every detail to ensure your complete satisfaction and that your experience with us is a positive one. We are here to serve you and answer any questions you may have. We love what we do and take pride in the quality of our work.",
+    "items": [
+      {
+        "content": "",
+        "link": "",
+        "src": "https://ucarecdn.com/3b85260c-ea99-4c78-9900-297903464f8c/",
+        "subtitle": "Car",
+        "title": "Car something"
       },
-      "information": {
-         "address": "7056 SW 4TH ST<br> MIAMI, FL 33144",
-         "emailTitle": "Email Us At",
-         "emails": "rafael@trujillosrepairs.com<br> leidy@trujillosrepairs.com",
-         "phoneTitle": "Call Us At",
-         "phones": "In english: (786) 603 4422<br> En español: (786) 327 8732",
-         "subtitle": "Where to Find Us",
-         "title": "Contact Information"
+      {
+        "content": "",
+        "link": "",
+        "src": "https://ucarecdn.com/66622deb-9332-408f-b677-3e8be50c7ab9/",
+        "subtitle": "Web Development",
+        "title": "Car something"
       },
-      "subtitle": "Contact",
-      "title": "Get In Touch."
-   }
+      {
+        "content": "",
+        "link": "",
+        "src": "https://ucarecdn.com/c2c2fd70-da55-43f0-a7cb-28b0bc39294a/",
+        "subtitle": "Web Development",
+        "title": "Car somehting"
+      },
+      {
+        "content": "",
+        "link": "",
+        "src": "https://ucarecdn.com/5e2fec2a-40e7-4208-962a-5d7caf4c9f1b/",
+        "subtitle": "Web Development",
+        "title": "Car sitme"
+      },
+      {
+        "content": "",
+        "link": "",
+        "src": "https://ucarecdn.com/9e2c3fc2-1595-49e9-a4bf-6c330bbfb2a2/",
+        "subtitle": "Web Development",
+        "title": "ssdf sdf sdfs"
+      },
+      {
+        "content": "",
+        "link": "",
+        "src": "https://ucarecdn.com/0f283e9a-5fa6-4fea-86b4-c28568826bd3/",
+        "subtitle": "Web Development",
+        "title": "car"
+      }
+    ],
+    "subtitle": "Showcase",
+    "title": "See Our Featured Projects."
+  },
+  "testimonials": {
+    "items": [
+      {
+        "avatar": "/assets/images/avatars/user-02.jpg",
+        "content": "When you walk into the right place, you can just feel it! At first I wasn't sure what I wanted to do but I wanted to make my Mustang a monster. Trujillo is very knowledgeable, he suggested things but also told me WHY he thinks that would be the best option. You don't find that everywhere.",
+        "name": "Albert Dalmau",
+        "position": "Customer"
+      },
+      {
+        "avatar": "/assets/images/avatars/user-03.jpg",
+        "content": "Great people to work with. They are professionals  and know what they are doing. Will definitely use them again.\n",
+        "name": "Jorge Felix",
+        "position": "Customer"
+      }
+    ],
+    "title": "What They Say About Us."
+  },
+  "clients": [
+    {
+      "alt": "audi",
+      "resize": "",
+      "src": "https://ucarecdn.com/674f61e2-257b-4830-a268-fcd803d37e7c/"
+    },
+    {
+      "alt": "toyota",
+      "resize": "",
+      "src": "https://ucarecdn.com/359a6a2e-1b86-4e7d-9df7-0821d06c2ab2/"
+    },
+    {
+      "alt": "lexus",
+      "resize": "",
+      "src": "https://ucarecdn.com/84667067-ea85-455e-b882-c1f05e6bb804/"
+    },
+    {
+      "alt": "hyundai",
+      "resize": "",
+      "src": "https://ucarecdn.com/8b291fc0-db0c-4e8e-904c-f80a4c32402c/"
+    },
+    {
+      "alt": "mazda",
+      "resize": "",
+      "src": "https://ucarecdn.com/038f1447-a7c9-4ae5-8c4f-e1e0a7812ff4/"
+    },
+    {
+      "alt": "honda",
+      "resize": "",
+      "src": "https://ucarecdn.com/80840580-6298-4080-a77d-02dc903d2c0f/"
+    },
+    {
+      "alt": "mercedes benz",
+      "resize": "",
+      "src": "https://ucarecdn.com/6c452c12-36f0-4827-8dc2-fbb21bd345e4/"
+    }
+  ],
+  "contact": {
+    "actionTitle": "Send Us A Message",
+    "backgroundImage": "/assets/images/slide2.jpg",
+    "content": "Please let us know if you have any questions about our services, or a comment you’d like to share. Fill out and submit the form below and a member of our team will be in touch!",
+    "form": {
+      "action": "https://formspree.io/rafael@trujillosrepairs.com"
+    },
+    "information": {
+      "address": "7056 SW 4TH ST<br> MIAMI, FL 33144",
+      "emailTitle": "Email Us At",
+      "emails": "rafael@trujillosrepairs.com<br> leidy@trujillosrepairs.com",
+      "phoneTitle": "Call Us At",
+      "phones": "In english: (786) 603 4422<br> En español: (786) 327 8732",
+      "subtitle": "Where to Find Us",
+      "title": "Contact Information"
+    },
+    "subtitle": "Contact",
+    "title": "Get In Touch."
+  }
 }
