@@ -208,7 +208,7 @@
             <div class="client-lists owl-carousel">
                 {% for item in home.home.clients %}
                     <div>
-                        {% myImage item.src, item.alt , '', 180 %}
+                        {% myImage item.src, item.alt , '', [180] %}
                     </div>
                 {% endfor %}
             </div>
