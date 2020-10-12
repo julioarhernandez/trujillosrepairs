@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "src/assets/images/min" # Folder where user uploaded files should go
-public_folder: "/assets/images/min" # Folder where user uploaded files should go
+media_folder: "src/assets/images/" # Folder where user uploaded files should go
+public_folder: "/assets/images/" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
   - label: "Pages"
@@ -11,7 +11,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - label: "Global"
         name: "global"
-        file: "_data/global/global.yml"
+        file: "_data/global/global.json"
         fields:
           - label: "Colors"
             name: "colors"
@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Class, name: class, widget: string, default: 'icon-1'}
       - label: "Home Page"
         name: "home"
-        file: "_data/home/home.yml"
+        file: "_data/home/home.json"
         widget: "object"
         fields:
           - label: SEO
@@ -160,7 +160,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Phones, name: phones, widget: text}
       - label: "Footer"
         name: "footer"
-        file: "_data/footer/footer.yml"
+        file: "_data/footer/footer.json"
         fields:
           - {label: Brand, name: brand, widget: string}
           - {label: Content, name: content, widget: text}
