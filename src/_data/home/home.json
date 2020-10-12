@@ -154,37 +154,37 @@
     {
       "alt": "audi",
       "resize": "",
-      "src": "https://ucarecdn.com/674f61e2-257b-4830-a268-fcd803d37e7c/"
+      "src": "/assets/images/audi.png"
     },
     {
       "alt": "toyota",
       "resize": "",
-      "src": "https://ucarecdn.com/359a6a2e-1b86-4e7d-9df7-0821d06c2ab2/"
+      "src": "/assets/images/toyota.png"
     },
     {
       "alt": "lexus",
       "resize": "",
-      "src": "https://ucarecdn.com/84667067-ea85-455e-b882-c1f05e6bb804/"
+      "src": "/assets/images/lexus.png"
     },
     {
       "alt": "hyundai",
       "resize": "",
-      "src": "https://ucarecdn.com/8b291fc0-db0c-4e8e-904c-f80a4c32402c/"
+      "src": "/assets/images/hyundai.png"
     },
     {
       "alt": "mazda",
       "resize": "",
-      "src": "https://ucarecdn.com/038f1447-a7c9-4ae5-8c4f-e1e0a7812ff4/"
+      "src": "/assets/images/mazda.png"
     },
     {
       "alt": "honda",
       "resize": "",
-      "src": "https://ucarecdn.com/80840580-6298-4080-a77d-02dc903d2c0f/"
+      "src": "/assets/images/honda.png"
     },
     {
       "alt": "mercedes benz",
       "resize": "",
-      "src": "https://ucarecdn.com/6c452c12-36f0-4827-8dc2-fbb21bd345e4/"
+      "src": "/assets/images/mercedes.png"
     }
   ],
   "contact": {
