@@ -4,7 +4,7 @@
     "title": "Repair Auto Body Shop | Miami auto body shop repair services"
   },
   "header": {
-    "backgroundImage": "/assets/images/hero-bg.jpg",
+    "backgroundImage": "/assets/images/home-slider.jpg",
     "button": {
       "href": "#about",
       "text": "Learn More"
@@ -90,48 +90,69 @@
       {
         "content": "",
         "link": "",
-        "src": "https://ucarecdn.com/3b85260c-ea99-4c78-9900-297903464f8c/",
-        "subtitle": "Car",
-        "title": "Car something"
+        "src": "/assets/images/vw-before.jpg",
+        "subtitle": "Collision Repair",
+        "title": "VW before repair"
       },
       {
         "content": "",
         "link": "",
-        "src": "https://ucarecdn.com/66622deb-9332-408f-b677-3e8be50c7ab9/",
-        "subtitle": "Web Development",
-        "title": "Car something"
+        "src": "/assets/images/vw-after.jpg",
+        "subtitle": "Collision Repair",
+        "title": "VW after repair"
       },
       {
         "content": "",
         "link": "",
-        "src": "https://ucarecdn.com/c2c2fd70-da55-43f0-a7cb-28b0bc39294a/",
-        "subtitle": "Web Development",
-        "title": "Car somehting"
+        "src": "/assets/images/fiat-before.jpg",
+        "subtitle": "Collision Repair",
+        "title": "Fiat before repair"
       },
       {
         "content": "",
         "link": "",
-        "src": "https://ucarecdn.com/5e2fec2a-40e7-4208-962a-5d7caf4c9f1b/",
-        "subtitle": "Web Development",
-        "title": "Car sitme"
+        "src": "/assets/images/fiat-after.jpg",
+        "subtitle": "Collision Repair",
+        "title": "Fiat after repair"
       },
       {
         "content": "",
         "link": "",
-        "src": "https://ucarecdn.com/9e2c3fc2-1595-49e9-a4bf-6c330bbfb2a2/",
-        "subtitle": "Web Development",
-        "title": "ssdf sdf sdfs"
+        "src": "/assets/images/ford-before.jpg",
+        "subtitle": "Collision Repair",
+        "title": "Ford before repair"
       },
       {
         "content": "",
         "link": "",
-        "src": "https://ucarecdn.com/0f283e9a-5fa6-4fea-86b4-c28568826bd3/",
-        "subtitle": "Web Development",
-        "title": "car"
+        "src": "/assets/images/ford-after.jpg",
+        "subtitle": "Collision Repair",
+        "title": "Ford after repair"
+      },
+      {
+        "content": "",
+        "link": "",
+        "src": "/assets/images/paint-car-job-1.jpg",
+        "subtitle": "Paint Job",
+        "title": "Paint process"
+      },
+      {
+        "content": "",
+        "link": "",
+        "src": "/assets/images/paint-car-job-2.jpg",
+        "subtitle": "Paint Job",
+        "title": "Paint process"
+      },
+      {
+        "content": "",
+        "link": "",
+        "src": "/assets/images/paint-car-job-3.jpg",
+        "subtitle": "Paint Job",
+        "title": "Paint process"
       }
     ],
-    "subtitle": "Showcase",
-    "title": "See Our Featured Projects."
+    "subtitle": "Our work",
+    "title": "See Our Featured Work."
   },
   "testimonials": {
     "items": [

@@ -109,54 +109,53 @@
 
 <!-- portfolio
 ================================================== -->
-<!--<section id="portfolio">-->
+<section id="portfolio">
 
-<!--    <div class="intro-wrap">-->
+    <div class="intro-wrap">
+        <div class="row narrow section-intro with-bottom-sep animate-this">
+            <div class="col-twelve">
+                <h3>{{home.home.portfolio.subtitle }}</h3>
+                <h1>{{home.home.portfolio.title }}</h1>
+                <p class="lead">{{ home.home.portfolio.content }}</p>
+            </div>
+        </div> <!-- end row section-intro -->
 
-<!--        <div class="row narrow section-intro with-bottom-sep animate-this">-->
-<!--            <div class="col-twelve">-->
-<!--                <h3>{{home.home.portfolio.subtitle }}</h3>-->
-<!--                <h1>{{home.home.portfolio.title }}</h1>-->
-<!--                <p class="lead">{{ home.home.portfolio.content }}</p>-->
-<!--            </div>-->
-<!--        </div> &lt;!&ndash; end row section-intro &ndash;&gt;-->
+    </div> <!-- end intro-wrap -->
 
-<!--    </div> &lt;!&ndash; end intro-wrap &ndash;&gt;-->
+    <div class="row portfolio-content">
+        <div class="col-twelve">
+            <div id="folio-wrap" class="bricks-wrapper">
+				{% for items in home.home.portfolio.items %}
+                <div class="brick folio-item">
+                    <div class="item-wrap animate-this" data-src="{{items.src}}"
+                        data-sub-html="#id{{forloop.index}}">
+                        <a href="#" class="overlay">
+                            {% myImage items.src, items.title , '', [565] %}
+                            <div class="item-text">
+                                <span class="folio-types">
+									{{items.subtitle}}
+                                </span>
+                                <h3 class="folio-title">{{items.title}}</h3>
+                            </div>
+                        </a>
+                        {% if items.link != '' %}
+                        <a href="{{items.link}}" class='details-link' title="details">
+                            <i class="icon-link"></i>
+                        </a>
+                        {% endif %}
+                    </div> <!-- end item-wrap -->
 
-<!--    <div class="row portfolio-content">-->
-<!--        <div class="col-twelve">-->
-<!--            <div id="folio-wrap" class="bricks-wrapper">-->
-<!--				{% for items in home.home.portfolio.items %}-->
-<!--                <div class="brick folio-item">-->
-<!--                    <div class="item-wrap animate-this" data-src="{{items.src}}"-->
-<!--                        data-sub-html="#id{{forloop.index}}">-->
-<!--                        <a href="#" class="overlay">-->
-<!--                            <img src="{{items.src}}" alt="Skaterboy">-->
-<!--                            <div class="item-text">-->
-<!--                                <span class="folio-types">-->
-<!--									{{items.subtitle}}-->
-<!--                                </span>-->
-<!--                                <h3 class="folio-title">{{items.title}}</h3>-->
-<!--                            </div>-->
-<!--                        </a>-->
-<!--                        {% if items.link != '' %}-->
-<!--                        <a href="{{items.link}}" class='details-link' title="details">-->
-<!--                            <i class="icon-link"></i>-->
-<!--                        </a>-->
-<!--                        {% endif %}-->
-<!--                    </div> &lt;!&ndash; end item-wrap &ndash;&gt;-->
+                    <div id="id{{forloop.index}}" class='hide'>
+                        <h4>{{items.title}}</h4>
+                        {% if items.content %}<p>{{items.content}} {% if items.link %}<a href="{{items.link}}">Details</a>{% endif %}</p>{% endif %}
+                    </div>
+                </div> <!-- end folio-item -->
+				{% endfor %}
+            </div> <!-- end folio-wrap -->
+        </div> <!-- end twelve -->
+    </div> <!-- end portfolio-content -->
 
-<!--                    <div id="id{{forloop.index}}" class='hide'>-->
-<!--                        <h4>{{items.title}}</h4>-->
-<!--                        {% if items.content %}<p>{{items.content}} {% if items.link %}<a href="{{items.link}}">Details</a>{% endif %}</p>{% endif %}-->
-<!--                    </div>-->
-<!--                </div> &lt;!&ndash; end folio-item &ndash;&gt;-->
-<!--				{% endfor %}-->
-<!--            </div> &lt;!&ndash; end folio-wrap &ndash;&gt;-->
-<!--        </div> &lt;!&ndash; end twelve &ndash;&gt;-->
-<!--    </div> &lt;!&ndash; end portfolio-content &ndash;&gt;-->
-
-<!--</section> &lt;!&ndash; end portfolio &ndash;&gt;-->
+</section> <!-- end portfolio &nd-->
 
 
 <!-- Testimonials Section
