@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 
         let prop = stats[outputFormat].pop();
 
-        return `<img src="${prop.url}" width="${prop.width}" height="${prop.height}" alt="${alt}">`;
+        return `<img src="${prop.url}" width="${prop.width}" height="${prop.height}" alt="${alt}" />`;
       });
     eleventyConfig.addFilter('dump', obj => {
         const getCircularReplacer = () => {
